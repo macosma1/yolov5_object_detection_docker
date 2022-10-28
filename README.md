@@ -87,7 +87,7 @@ cd utils/docker/
 <details open>
 <summary>Execution of YOLOv5 with Docker</summary>
 
-For running the algorithm with docker, as long as docker is downloaded, it is necessary to be located in the 'utils/dockerfile' folder where the Dockerfile and the requirements.txt file are. Once there, the following code must be executed to create the yolov5 image:
+For running the algorithm with docker, as long as docker is downloaded, it is necessary to be located in the 'utils/docker' folder where the Dockerfile and the requirements.txt file are. Once there, the following code must be executed to create the yolov5 image:
 
 ```bash
 docker build -t yolov5:v1 .
