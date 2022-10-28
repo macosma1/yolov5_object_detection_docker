@@ -67,8 +67,7 @@ YOLOv5 🚀 is a family of object detection architectures and models pretrained 
 
 See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
 
-## <div align="center">Quick Start Examples</div>
-
+## <div align="center">YOLOv5 with Docker</div>
 <details open>
 <summary>Install</summary>
 
@@ -82,12 +81,12 @@ cd yolov5_object_detection_docker/
 pip install -r requirements.txt
 cd utils/docker/
 ```
-
 </details>
 
-<details>
 
-## <div align="center">YOLOv5 with Docker</div>
+<details open>
+<summary>Execution of YOLOv5 with Docker</summary>
+
 For running the algorithm with docker, as long as docker is downloaded, it is necessary to be located in the 'utils/dockerfile' folder where the Dockerfile and the requirements.txt file are. Once there, the following code must be executed to create the yolov5 image:
 
 ```bash
@@ -111,9 +110,10 @@ Once everything is ready, inside the docker terminal the file 'ejecutar.py' must
 #To run the full yolov5 algorithm
 python ejecutar.py
 ```
+</details>
 
 ## <div align="center">Quick Start Examples</div>
-
+<details>
 <summary>Inference with detect.py</summary>
 
 `detect.py` runs inference on a variety of sources, downloading [models](https://github.com/ultralytics/yolov5/tree/master/models) automatically from
