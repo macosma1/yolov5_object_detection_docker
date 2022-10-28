@@ -189,6 +189,10 @@ python run.py #execute the script
 ```
 </details>
 
+
+
+<details>
+<summary>Training custom dataset</summary>
 ## <div align="center">Training custom dataset</div>
 
 - Once the whole database has been labelled, move the images for training to data\_train/images/train and the validation ones to data\_train/images/val. Move the labels of the training images to data\_train/labels/train, and the labels of validation to data\_train/labels/val.
@@ -201,12 +205,16 @@ python train.py --data coco128.yaml --weights yolo5s.pt --epochs 300
 ```bash
 python detect.py --weights runs/train/exp/weights/best.pt --source 0
 ```
+</details>
 
+<details>
+<summary>Running the pre-trained model</summary>
 ## <div align="center">Running the pre-trained model</div>
 For running the pre-trained model, the weights "weights.pt" must be used in the next code:
 ```bash
 python detect.py --weights weights.pt --source 0
 ```
+</details>
 
 ## <div align="center">Modifications to use Gstreamer and WebSocket</div>
 <details>
