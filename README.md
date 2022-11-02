@@ -69,14 +69,16 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 
 ## <div align="center">YOLOv5 with Docker</div>
 <details open>
-<summary>Install</summary>
+<summary>Installation and execution of YOLOv5 with Docker using yolo_docker.sh</summary>
 
-Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt)
+Clone repo
 ```bash
-https://github.com/macosma1/yolov5_object_detection_docker.git
+git clone https://github.com/macosma1/yolov5_object_detection_docker.git
 cd yolov5_object_detection_docker/
-pip install -r requirements.txt
-cd utils/docker/
+chmod +x yolo_docker.sh
+yes | ./yolo_docker.sh
+#To run the full yolov5 algorithm
+python ejecutar.py
 ```
 </details>
 
