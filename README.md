@@ -71,7 +71,6 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 <details open>
 <summary>Installation and execution of YOLOv5 with Docker using yolo_docker.sh</summary>
 
-Clone repo
 ```bash
 git clone https://github.com/macosma1/yolov5_object_detection_docker.git
 cd yolov5_object_detection_docker/
@@ -83,8 +82,8 @@ python ejecutar.py
 </details>
 
 
-<details open>
-<summary>Execution of YOLOv5 with Docker</summary>
+<details>
+<summary>Execution of YOLOv5 with Docker as long as dockerfile is downloaded</summary>
 
 For running the algorithm with docker, as long as docker is downloaded, it is necessary to be located in the 'utils/docker' folder where the Dockerfile and the requirements.txt file are. Once there, the following code must be executed to create the yolov5 image:
 
