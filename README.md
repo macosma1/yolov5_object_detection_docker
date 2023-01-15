@@ -198,6 +198,7 @@ For running the pre-trained model, the weights "weights.pt" must be used in the 
 ```bash
 python detect.py --weights weights.pt --source 0
 ```
+
 </details>
 
 ## <div align="center">Modifications to use Gstreamer and WebSocket</div>
