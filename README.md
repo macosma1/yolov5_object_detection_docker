@@ -179,7 +179,6 @@ python run.py #execute the script
 
 <details>
 <summary>Training custom dataset</summary>
-## <div align="center">Training custom dataset</div>
 
 - Once the whole database has been labelled, move the images for training to data\_train/images/train and the validation ones to data\_train/images/val. Move the labels of the training images to data\_train/labels/train, and the labels of validation to data\_train/labels/val.
 - Go to folder "data" and modify the file "coco128.yaml". Firstly, indicate the total number of classes in variable "nc" and secondly, in variable "names" are the names of the classes, they must be in the same order in which they have been ordered when labelled.
@@ -195,7 +194,6 @@ python detect.py --weights runs/train/exp/weights/best.pt --source 0
 
 <details>
 <summary>Running the pre-trained model</summary>
-## <div align="center">Running the pre-trained model</div>
 For running the pre-trained model, the weights "weights.pt" must be used in the next code:
 ```bash
 python detect.py --weights weights.pt --source 0
