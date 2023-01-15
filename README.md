@@ -194,12 +194,14 @@ python detect.py --weights runs/train/exp/weights/best.pt --source 0
 
 <details>
 <summary>Running the pre-trained model</summary>
+
 For running the pre-trained model, the weights "weights.pt" must be used in the next code:
 ```bash
 python detect.py --weights weights.pt --source 0
 ```
 
 </details>
+
 
 ## <div align="center">Modifications to use Gstreamer and WebSocket</div>
 <details>
